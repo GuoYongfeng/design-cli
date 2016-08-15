@@ -1,33 +1,34 @@
 {
-  "name": "scion-cli",
-  "version": "0.0.3",
-  "description": "A simple CLI for creating your projects",
+  "name": "design-cli",
+  "version": "1.0.0",
+  "description": "design cli",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
-    "scion": "bin/scion"
+    "design": "bin/design"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jrainlau/scion.git"
-  },
-  "keywords": [
-    "scion",
-    "cli",
-    "es6"
-  ],
-  "author": "Jrain Lau",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jrainlau/scion/issues"
-  },
-  "homepage": "https://github.com/jrainlau/scion#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoYongfeng/design-cli.git"
+  },
+  "keywords": [
+    "iuap",
+    "design",
+    "cli"
+  ],
+  "author": "GuoYongfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuoYongfeng/design-cli/issues"
+  },
+  "homepage": "https://github.com/GuoYongfeng/design-cli#readme"
 }
