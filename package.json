@@ -1,0 +1,33 @@
+{
+  "name": "scion-cli",
+  "version": "0.0.3",
+  "description": "A simple CLI for creating your projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scion": "bin/scion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrainlau/scion.git"
+  },
+  "keywords": [
+    "scion",
+    "cli",
+    "es6"
+  ],
+  "author": "Jrain Lau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrainlau/scion/issues"
+  },
+  "homepage": "https://github.com/jrainlau/scion#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
